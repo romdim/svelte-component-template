@@ -12,6 +12,8 @@ It includes by default:
 - Storybook
 - Rollup, configured to build .js (umd), .min.js (iife), .mjs (es)
 
+[Demo](https://romdim.github.io/svelte-component-template/)
+
 ## Install / Clone
 
 Use the big green button up & right that says `Use this template` to generate your own repo.
