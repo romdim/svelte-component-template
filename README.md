@@ -35,6 +35,17 @@ You can create a package that exports multiple components by adding them to the 
 - Replace this README with your own
 - Replace the `name, version, author, license, homepage, repository.url, bugs.url, keywords` from within the `package.json`.
 
-### Based on [sveltejs/component-template](https://github.com/sveltejs/component-template) & [svelte-component-library-template](https://github.com/nirmaoz/svelte-component-library-template)
+## Testing
+
+Comes with tests out of the box using svelte-testing-library + Jest.
+
+To Run tests: `yarn test`
+
+## Storybook
+To serve development build: `yarn storybook`.
+To build static storybook site (default output folder is /docs for easily sharing on github pages):
+`yarn build-storybook`
+
+## Based on [sveltejs/component-template](https://github.com/sveltejs/component-template) & [svelte-component-library-template](https://github.com/nirmaoz/svelte-component-library-template)
 
 Added upon the great opinionated template from [nirmaoz](https://github.com/nirmaoz) to use Typescript + Storybook addons
