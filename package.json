@@ -1,0 +1,68 @@
+{
+  "name": "SvelteComponent",
+  "version": "1.0.0",
+  "author": "Romanos Tsouroplis (https://github.com/romdim)",
+  "license": "MIT",
+  "homepage": "https://github.com/romdim/svelte-progressive-image",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romdim/svelte-progressive-image"
+  },
+  "bugs": {
+    "url": "https://github.com/romdim/svelte-progressive-image/issues"
+  },
+  "svelte": "src/index.ts",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "yarn build",
+    "test": "jest test",
+    "test:watch": "yarn test -- --watch",
+    "validate": "svelte-check",
+    "storybook": "start-storybook -s ./static -p 6006",
+    "build-storybook": "del-cli docs && build-storybook -c .storybook -o docs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@storybook/addon-a11y": "^6.0.21",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-controls": "^6.0.21",
+    "@storybook/addon-docs": "^6.0.21",
+    "@storybook/addon-storysource": "^6.0.21",
+    "@storybook/addons": "^6.0.21",
+    "@storybook/svelte": "^6.0.21",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/svelte": "^3.0.0",
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/jest": "^26.0.13",
+    "@types/testing-library__jest-dom": "^5.9.2",
+    "babel-jest": "^26.3.0",
+    "babel-plugin-react-remove-properties": "^0.3.0",
+    "del-cli": "^3.0.0",
+    "jest": "^26.4.2",
+    "jest-transform-svelte": "^2.1.1",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "svelte": "^3.0.0",
+    "svelte-check": "^1.0.36",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^4.2.1",
+    "ts-jest": "^26.3.0",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {}
+}
