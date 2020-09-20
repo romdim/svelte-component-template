@@ -4,14 +4,11 @@ NOTICE:
 =======
 svelte-component-template is based on 
 
-- sveltejs/component-template:
-- https://github.com/sveltejs/component-template
-That was originally created by Rich Harris.
+[sveltejs/component-template](https://github.com/sveltejs/component-template) that was originally created by Rich Harris.
 
 AND
-- svelte-component-library-template:
-- https://github.com/nirmaoz/svelte-component-library-template
-That was originally created by Nir Maoz.
+
+[svelte-component-library-template](https://github.com/nirmaoz/svelte-component-library-template) that was originally created by Nir Maoz.
 
 svelte-component-template is Copyright (c) 2020 Romanos Tsouroplis
 
